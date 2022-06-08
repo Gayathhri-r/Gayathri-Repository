@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="47" passed="47" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-20T11:28:26 EDT" name="RestAssuredProject_Jobs_Api" finished-at="2022-05-20T11:29:06 EDT" duration-ms="39943">
+    <groups>
+    </groups>
+    <test started-at="2022-05-20T11:28:26 EDT" name="Jobs API Test" finished-at="2022-05-20T11:29:06 EDT" duration-ms="39943">
+      <class name="TestCases.Jobs_GET_Request">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:TestCases.Jobs_GET_Request@5c7933ad]" started-at="2022-05-20T11:29:05 EDT" name="Setup" finished-at="2022-05-20T11:29:05 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method is-config="true" signature="GetRequestAllJobs()[pri:0, instance:TestCases.Jobs_GET_Request@5c7933ad]" started-at="2022-05-20T11:29:05 EDT" name="GetRequestAllJobs" finished-at="2022-05-20T11:29:06 EDT" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetRequestAllJobs -->
+        <test-method signature="CheckResponseBody()[pri:0, instance:TestCases.Jobs_GET_Request@5c7933ad]" started-at="2022-05-20T11:29:06 EDT" name="CheckResponseBody" finished-at="2022-05-20T11:29:06 EDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckResponseBody -->
+        <test-method signature="ValidateHeadersConnection()[pri:0, instance:TestCases.Jobs_GET_Request@5c7933ad]" started-at="2022-05-20T11:29:06 EDT" name="ValidateHeadersConnection" finished-at="2022-05-20T11:29:06 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateHeadersConnection -->
+        <test-method signature="ValidateJsonSchemaValidation()[pri:0, instance:TestCases.Jobs_GET_Request@5c7933ad]" started-at="2022-05-20T11:29:06 EDT" name="ValidateJsonSchemaValidation" finished-at="2022-05-20T11:29:06 EDT" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateJsonSchemaValidation -->
+        <test-method signature="ValidateStatusCode()[pri:0, instance:TestCases.Jobs_GET_Request@5c7933ad]" started-at="2022-05-20T11:29:06 EDT" name="ValidateStatusCode" finished-at="2022-05-20T11:29:06 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateStatusCode -->
+        <test-method signature="ValidateStatusLine()[pri:0, instance:TestCases.Jobs_GET_Request@5c7933ad]" started-at="2022-05-20T11:29:06 EDT" name="ValidateStatusLine" finished-at="2022-05-20T11:29:06 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateStatusLine -->
+      </class> <!-- TestCases.Jobs_GET_Request -->
+      <class name="TestCases.Jobs_DELETE_already_deleted_record_Request">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:TestCases.Jobs_DELETE_already_deleted_record_Request@3cce5371]" started-at="2022-05-20T11:29:05 EDT" name="Setup" finished-at="2022-05-20T11:29:05 EDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="DeleteJobsApi(java.lang.String)[pri:1, instance:TestCases.Jobs_DELETE_already_deleted_record_Request@3cce5371]" started-at="2022-05-20T11:29:05 EDT" name="DeleteJobsApi" data-provider="DeleteRequestAlreadyDeletedRecord" finished-at="2022-05-20T11:29:05 EDT" duration-ms="174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[102]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteJobsApi -->
+        <test-method signature="DeleteJobsApi(java.lang.String)[pri:1, instance:TestCases.Jobs_DELETE_already_deleted_record_Request@3cce5371]" started-at="2022-05-20T11:29:05 EDT" name="DeleteJobsApi" data-provider="DeleteRequestAlreadyDeletedRecord" finished-at="2022-05-20T11:29:05 EDT" duration-ms="185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[103]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteJobsApi -->
+        <test-method signature="ValidateStatusCode()[pri:2, instance:TestCases.Jobs_DELETE_already_deleted_record_Request@3cce5371]" started-at="2022-05-20T11:29:05 EDT" name="ValidateStatusCode" finished-at="2022-05-20T11:29:05 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateStatusCode -->
+        <test-method signature="ValidateStatusLine()[pri:3, instance:TestCases.Jobs_DELETE_already_deleted_record_Request@3cce5371]" started-at="2022-05-20T11:29:05 EDT" name="ValidateStatusLine" finished-at="2022-05-20T11:29:05 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateStatusLine -->
+        <test-method signature="ValidateJsonSchemaValidation()[pri:4, instance:TestCases.Jobs_DELETE_already_deleted_record_Request@3cce5371]" started-at="2022-05-20T11:29:05 EDT" name="ValidateJsonSchemaValidation" finished-at="2022-05-20T11:29:05 EDT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateJsonSchemaValidation -->
+      </class> <!-- TestCases.Jobs_DELETE_already_deleted_record_Request -->
+      <class name="TestCases.Jobs_PUT_non_existing_record_Request">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:TestCases.Jobs_PUT_non_existing_record_Request@5745ca0e]" started-at="2022-05-20T11:28:53 EDT" name="Setup" finished-at="2022-05-20T11:28:53 EDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="PutJobsApi(java.lang.String,java.lang.String)[pri:1, instance:TestCases.Jobs_PUT_non_existing_record_Request@5745ca0e]" started-at="2022-05-20T11:28:53 EDT" name="PutJobsApi" data-provider="PUT_Non_ExistingRecord" finished-at="2022-05-20T11:28:55 EDT" duration-ms="2169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SDET]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[140321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PutJobsApi -->
+        <test-method signature="PutJobsApi(java.lang.String,java.lang.String)[pri:1, instance:TestCases.Jobs_PUT_non_existing_record_Request@5745ca0e]" started-at="2022-05-20T11:28:55 EDT" name="PutJobsApi" data-provider="PUT_Non_ExistingRecord" finished-at="2022-05-20T11:28:57 EDT" duration-ms="2167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SDET]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[140322]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PutJobsApi -->
+        <test-method signature="PutJobsApi(java.lang.String,java.lang.String)[pri:1, instance:TestCases.Jobs_PUT_non_existing_record_Request@5745ca0e]" started-at="2022-05-20T11:28:57 EDT" name="PutJobsApi" data-provider="PUT_Non_ExistingRecord" finished-at="2022-05-20T11:29:00 EDT" duration-ms="2172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SDET]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[140323]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PutJobsApi -->
+        <test-method signature="PutJobsApi(java.lang.String,java.lang.String)[pri:1, instance:TestCases.Jobs_PUT_non_existing_record_Request@5745ca0e]" started-at="2022-05-20T11:29:00 EDT" name="PutJobsApi" data-provider="PUT_Non_ExistingRecord" finished-at="2022-05-20T11:29:02 EDT" duration-ms="2170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SDET]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[140324]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PutJobsApi -->
+        <test-method signature="PutJobsApi(java.lang.String,java.lang.String)[pri:1, instance:TestCases.Jobs_PUT_non_existing_record_Request@5745ca0e]" started-at="2022-05-20T11:29:02 EDT" name="PutJobsApi" data-provider="PUT_Non_ExistingRecord" finished-at="2022-05-20T11:29:04 EDT" duration-ms="2205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SDET]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[140325]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PutJobsApi -->
+        <test-method signature="ValidateStatusCode()[pri:2, instance:TestCases.Jobs_PUT_non_existing_record_Request@5745ca0e]" started-at="2022-05-20T11:29:04 EDT" name="ValidateStatusCode" finished-at="2022-05-20T11:29:04 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateStatusCode -->
+        <test-method signature="ValidateStatusLine()[pri:3, instance:TestCases.Jobs_PUT_non_existing_record_Request@5745ca0e]" started-at="2022-05-20T11:29:04 EDT" name="ValidateStatusLine" finished-at="2022-05-20T11:29:04 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateStatusLine -->
+        <test-method signature="ValidateJsonSchemaValidation()[pri:4, instance:TestCases.Jobs_PUT_non_existing_record_Request@5745ca0e]" started-at="2022-05-20T11:29:04 EDT" name="ValidateJsonSchemaValidation" finished-at="2022-05-20T11:29:04 EDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateJsonSchemaValidation -->
+      </class> <!-- TestCases.Jobs_PUT_non_existing_record_Request -->
+      <class name="TestCases.Jobs_POST_already_existing_record_Request">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:TestCases.Jobs_POST_already_existing_record_Request@2de56eb2]" started-at="2022-05-20T11:28:32 EDT" name="Setup" finished-at="2022-05-20T11:28:32 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="PostJobsApi(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestCases.Jobs_POST_already_existing_record_Request@2de56eb2]" started-at="2022-05-20T11:28:33 EDT" name="PostJobsApi" data-provider="POSTAlreadyExistingRecord" finished-at="2022-05-20T11:28:35 EDT" duration-ms="2177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SDET]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Infosys]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Philadelphia]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Contract]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2 hours ago]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[RESPONSIBILITIES: Kforce has a client in Greenwood Village]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[214]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostJobsApi -->
+        <test-method signature="PostJobsApi(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestCases.Jobs_POST_already_existing_record_Request@2de56eb2]" started-at="2022-05-20T11:28:35 EDT" name="PostJobsApi" data-provider="POSTAlreadyExistingRecord" finished-at="2022-05-20T11:28:37 EDT" duration-ms="2170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SDET]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Infosys]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Philadelphia]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Contract]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2 hours ago]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[RESPONSIBILITIES: Kforce has a client in Greenwood Village]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[215]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostJobsApi -->
+        <test-method signature="PostJobsApi(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestCases.Jobs_POST_already_existing_record_Request@2de56eb2]" started-at="2022-05-20T11:28:37 EDT" name="PostJobsApi" data-provider="POSTAlreadyExistingRecord" finished-at="2022-05-20T11:28:39 EDT" duration-ms="2173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SDET]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Infosys]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Philadelphia]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Contract]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2 hours ago]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[RESPONSIBILITIES: Kforce has a client in Greenwood Village]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[216]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostJobsApi -->
+        <test-method signature="PostJobsApi(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestCases.Jobs_POST_already_existing_record_Request@2de56eb2]" started-at="2022-05-20T11:28:39 EDT" name="PostJobsApi" data-provider="POSTAlreadyExistingRecord" finished-at="2022-05-20T11:28:42 EDT" duration-ms="2159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SDET]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Infosys]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Philadelphia]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Contract]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2 hours ago]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[RESPONSIBILITIES: Kforce has a client in Greenwood Village]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[217]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostJobsApi -->
+        <test-method signature="PostJobsApi(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestCases.Jobs_POST_already_existing_record_Request@2de56eb2]" started-at="2022-05-20T11:28:42 EDT" name="PostJobsApi" data-provider="POSTAlreadyExistingRecord" finished-at="2022-05-20T11:28:44 EDT" duration-ms="2177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SDET]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Infosys]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Philadelphia]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Contract]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2 hours ago]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[RESPONSIBILITIES: Kforce has a client in Greenwood Village]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[149]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostJobsApi -->
+        <test-method signature="ValidateStatusCode()[pri:2, instance:TestCases.Jobs_POST_already_existing_record_Request@2de56eb2]" started-at="2022-05-20T11:28:44 EDT" name="ValidateStatusCode" finished-at="2022-05-20T11:28:44 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateStatusCode -->
+        <test-method signature="ValidateStatusLine()[pri:3, instance:TestCases.Jobs_POST_already_existing_record_Request@2de56eb2]" started-at="2022-05-20T11:28:44 EDT" name="ValidateStatusLine" finished-at="2022-05-20T11:28:44 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateStatusLine -->
+        <test-method signature="ValidateJsonSchemaValidation()[pri:4, instance:TestCases.Jobs_POST_already_existing_record_Request@2de56eb2]" started-at="2022-05-20T11:28:44 EDT" name="ValidateJsonSchemaValidation" finished-at="2022-05-20T11:28:44 EDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateJsonSchemaValidation -->
+      </class> <!-- TestCases.Jobs_POST_already_existing_record_Request -->
+      <class name="TestCases.Jobs_DELETE_Request">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:TestCases.Jobs_DELETE_Request@3ad83a66]" started-at="2022-05-20T11:29:04 EDT" name="Setup" finished-at="2022-05-20T11:29:04 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="DeleteJobsApi(java.lang.String)[pri:1, instance:TestCases.Jobs_DELETE_Request@3ad83a66]" started-at="2022-05-20T11:29:04 EDT" name="DeleteJobsApi" data-provider="DeleteRequest" finished-at="2022-05-20T11:29:04 EDT" duration-ms="167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[230]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteJobsApi -->
+        <test-method signature="DeleteJobsApi(java.lang.String)[pri:1, instance:TestCases.Jobs_DELETE_Request@3ad83a66]" started-at="2022-05-20T11:29:04 EDT" name="DeleteJobsApi" data-provider="DeleteRequest" finished-at="2022-05-20T11:29:04 EDT" duration-ms="169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[231]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteJobsApi -->
+        <test-method signature="DeleteJobsApi(java.lang.String)[pri:1, instance:TestCases.Jobs_DELETE_Request@3ad83a66]" started-at="2022-05-20T11:29:04 EDT" name="DeleteJobsApi" data-provider="DeleteRequest" finished-at="2022-05-20T11:29:05 EDT" duration-ms="174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[232]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteJobsApi -->
+        <test-method signature="DeleteJobsApi(java.lang.String)[pri:1, instance:TestCases.Jobs_DELETE_Request@3ad83a66]" started-at="2022-05-20T11:29:05 EDT" name="DeleteJobsApi" data-provider="DeleteRequest" finished-at="2022-05-20T11:29:05 EDT" duration-ms="208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[233]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteJobsApi -->
+        <test-method signature="ValidateStatusCode()[pri:2, instance:TestCases.Jobs_DELETE_Request@3ad83a66]" started-at="2022-05-20T11:29:05 EDT" name="ValidateStatusCode" finished-at="2022-05-20T11:29:05 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateStatusCode -->
+        <test-method signature="ValidateStatusLine()[pri:3, instance:TestCases.Jobs_DELETE_Request@3ad83a66]" started-at="2022-05-20T11:29:05 EDT" name="ValidateStatusLine" finished-at="2022-05-20T11:29:05 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateStatusLine -->
+        <test-method signature="ValidateJsonSchemaValidation()[pri:4, instance:TestCases.Jobs_DELETE_Request@3ad83a66]" started-at="2022-05-20T11:29:05 EDT" name="ValidateJsonSchemaValidation" finished-at="2022-05-20T11:29:05 EDT" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateJsonSchemaValidation -->
+      </class> <!-- TestCases.Jobs_DELETE_Request -->
+      <class name="TestCases.Jobs_POST_Request">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:TestCases.Jobs_POST_Request@2ab4bc72]" started-at="2022-05-20T11:28:26 EDT" name="Setup" finished-at="2022-05-20T11:28:26 EDT" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="PostJobsApi(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestCases.Jobs_POST_Request@2ab4bc72]" started-at="2022-05-20T11:28:28 EDT" name="PostJobsApi" data-provider="AddNewJobs" finished-at="2022-05-20T11:28:30 EDT" duration-ms="2130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SDET]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TCS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Philadelphia]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Contract]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2 hours ago]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[RESPONSIBILITIES: Kforce has a client in Greenwood Village]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostJobsApi -->
+        <test-method signature="PostJobsApi(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestCases.Jobs_POST_Request@2ab4bc72]" started-at="2022-05-20T11:28:30 EDT" name="PostJobsApi" data-provider="AddNewJobs" finished-at="2022-05-20T11:28:31 EDT" duration-ms="204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SDET]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TCS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Philadelphia]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Contract]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2 hours ago]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[RESPONSIBILITIES: Kforce has a client in Greenwood Village]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[235]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostJobsApi -->
+        <test-method signature="PostJobsApi(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestCases.Jobs_POST_Request@2ab4bc72]" started-at="2022-05-20T11:28:31 EDT" name="PostJobsApi" data-provider="AddNewJobs" finished-at="2022-05-20T11:28:31 EDT" duration-ms="176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SDET]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TCS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Philadelphia]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Contract]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2 hours ago]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[RESPONSIBILITIES: Kforce has a client in Greenwood Village]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[236]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostJobsApi -->
+        <test-method signature="PostJobsApi(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestCases.Jobs_POST_Request@2ab4bc72]" started-at="2022-05-20T11:28:31 EDT" name="PostJobsApi" data-provider="AddNewJobs" finished-at="2022-05-20T11:28:31 EDT" duration-ms="197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SDET]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TCS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Philadelphia]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Contract]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2 hours ago]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[RESPONSIBILITIES: Kforce has a client in Greenwood Village]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[237]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostJobsApi -->
+        <test-method signature="ValidateStatusCode()[pri:2, instance:TestCases.Jobs_POST_Request@2ab4bc72]" started-at="2022-05-20T11:28:31 EDT" name="ValidateStatusCode" finished-at="2022-05-20T11:28:31 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateStatusCode -->
+        <test-method signature="ValidateStatusLine()[pri:3, instance:TestCases.Jobs_POST_Request@2ab4bc72]" started-at="2022-05-20T11:28:31 EDT" name="ValidateStatusLine" finished-at="2022-05-20T11:28:31 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateStatusLine -->
+        <test-method signature="ValidateJsonSchemaValidation()[pri:4, instance:TestCases.Jobs_POST_Request@2ab4bc72]" started-at="2022-05-20T11:28:31 EDT" name="ValidateJsonSchemaValidation" finished-at="2022-05-20T11:28:32 EDT" duration-ms="700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateJsonSchemaValidation -->
+      </class> <!-- TestCases.Jobs_POST_Request -->
+      <class name="TestCases.Jobs_PUT_Request">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:TestCases.Jobs_PUT_Request@5f8e8a9d]" started-at="2022-05-20T11:28:44 EDT" name="Setup" finished-at="2022-05-20T11:28:44 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="PutJobsApi(java.lang.String,java.lang.String)[pri:1, instance:TestCases.Jobs_PUT_Request@5f8e8a9d]" started-at="2022-05-20T11:28:44 EDT" name="PutJobsApi" data-provider="PUTRequest" finished-at="2022-05-20T11:28:46 EDT" duration-ms="2218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[214]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PutJobsApi -->
+        <test-method signature="PutJobsApi(java.lang.String,java.lang.String)[pri:1, instance:TestCases.Jobs_PUT_Request@5f8e8a9d]" started-at="2022-05-20T11:28:46 EDT" name="PutJobsApi" data-provider="PUTRequest" finished-at="2022-05-20T11:28:48 EDT" duration-ms="2186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[215]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PutJobsApi -->
+        <test-method signature="PutJobsApi(java.lang.String,java.lang.String)[pri:1, instance:TestCases.Jobs_PUT_Request@5f8e8a9d]" started-at="2022-05-20T11:28:48 EDT" name="PutJobsApi" data-provider="PUTRequest" finished-at="2022-05-20T11:28:51 EDT" duration-ms="2190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[216]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PutJobsApi -->
+        <test-method signature="PutJobsApi(java.lang.String,java.lang.String)[pri:1, instance:TestCases.Jobs_PUT_Request@5f8e8a9d]" started-at="2022-05-20T11:28:51 EDT" name="PutJobsApi" data-provider="PUTRequest" finished-at="2022-05-20T11:28:53 EDT" duration-ms="2204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[217]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PutJobsApi -->
+        <test-method signature="ValidateStatusCode()[pri:2, instance:TestCases.Jobs_PUT_Request@5f8e8a9d]" started-at="2022-05-20T11:28:53 EDT" name="ValidateStatusCode" finished-at="2022-05-20T11:28:53 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateStatusCode -->
+        <test-method signature="ValidateJsonSchemaValidation()[pri:4, instance:TestCases.Jobs_PUT_Request@5f8e8a9d]" started-at="2022-05-20T11:28:53 EDT" name="ValidateJsonSchemaValidation" finished-at="2022-05-20T11:28:53 EDT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateJsonSchemaValidation -->
+        <test-method signature="ValidateStatusLine()[pri:4, instance:TestCases.Jobs_PUT_Request@5f8e8a9d]" started-at="2022-05-20T11:28:53 EDT" name="ValidateStatusLine" finished-at="2022-05-20T11:28:53 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateStatusLine -->
+      </class> <!-- TestCases.Jobs_PUT_Request -->
+    </test> <!-- Jobs API Test -->
+  </suite> <!-- RestAssuredProject_Jobs_Api -->
+</testng-results>

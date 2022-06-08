@@ -1,0 +1,314 @@
+<html>
+<head>
+<title>TestNG:  Jobs API Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Jobs API Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>47/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri May 20 11:28:26 EDT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>39 seconds (39943 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestCases.Jobs_PUT_Request.ValidateStatusLine()'><b>ValidateStatusLine</b><br>Test class: TestCases.Jobs_PUT_Request</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Jobs_PUT_Request@5f8e8a9d</td></tr>
+<tr>
+<td title='TestCases.Jobs_POST_already_existing_record_Request.ValidateJsonSchemaValidation()'><b>ValidateJsonSchemaValidation</b><br>Test class: TestCases.Jobs_POST_already_existing_record_Request</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Jobs_POST_already_existing_record_Request@2de56eb2</td></tr>
+<tr>
+<td title='TestCases.Jobs_DELETE_Request.ValidateJsonSchemaValidation()'><b>ValidateJsonSchemaValidation</b><br>Test class: TestCases.Jobs_DELETE_Request</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Jobs_DELETE_Request@3ad83a66</td></tr>
+<tr>
+<td title='TestCases.Jobs_POST_already_existing_record_Request.ValidateStatusLine()'><b>ValidateStatusLine</b><br>Test class: TestCases.Jobs_POST_already_existing_record_Request</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Jobs_POST_already_existing_record_Request@2de56eb2</td></tr>
+<tr>
+<td title='TestCases.Jobs_DELETE_Request.DeleteJobsApi()'><b>DeleteJobsApi</b><br>Test class: TestCases.Jobs_DELETE_Request<br>Parameters: 231</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Jobs_DELETE_Request@3ad83a66</td></tr>
+<tr>
+<td title='TestCases.Jobs_DELETE_Request.DeleteJobsApi()'><b>DeleteJobsApi</b><br>Test class: TestCases.Jobs_DELETE_Request<br>Parameters: 232</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Jobs_DELETE_Request@3ad83a66</td></tr>
+<tr>
+<td title='TestCases.Jobs_POST_Request.PostJobsApi()'><b>PostJobsApi</b><br>Test class: TestCases.Jobs_POST_Request<br>Parameters: SDET, TCS, Philadelphia, Contract, 2 hours ago, RESPONSIBILITIES: Kforce has a client in Greenwood Village, 237</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Jobs_POST_Request@2ab4bc72</td></tr>
+<tr>
+<td title='TestCases.Jobs_PUT_Request.PutJobsApi()'><b>PutJobsApi</b><br>Test class: TestCases.Jobs_PUT_Request<br>Parameters: Tester, 217</td>
+<td></td>
+<td>2</td>
+<td>TestCases.Jobs_PUT_Request@5f8e8a9d</td></tr>
+<tr>
+<td title='TestCases.Jobs_POST_already_existing_record_Request.PostJobsApi()'><b>PostJobsApi</b><br>Test class: TestCases.Jobs_POST_already_existing_record_Request<br>Parameters: SDET, Infosys, Philadelphia, Contract, 2 hours ago, RESPONSIBILITIES: Kforce has a client in Greenwood Village, 216</td>
+<td></td>
+<td>2</td>
+<td>TestCases.Jobs_POST_already_existing_record_Request@2de56eb2</td></tr>
+<tr>
+<td title='TestCases.Jobs_POST_Request.PostJobsApi()'><b>PostJobsApi</b><br>Test class: TestCases.Jobs_POST_Request<br>Parameters: SDET, TCS, Philadelphia, Contract, 2 hours ago, RESPONSIBILITIES: Kforce has a client in Greenwood Village, 236</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Jobs_POST_Request@2ab4bc72</td></tr>
+<tr>
+<td title='TestCases.Jobs_POST_already_existing_record_Request.PostJobsApi()'><b>PostJobsApi</b><br>Test class: TestCases.Jobs_POST_already_existing_record_Request<br>Parameters: SDET, Infosys, Philadelphia, Contract, 2 hours ago, RESPONSIBILITIES: Kforce has a client in Greenwood Village, 149</td>
+<td></td>
+<td>2</td>
+<td>TestCases.Jobs_POST_already_existing_record_Request@2de56eb2</td></tr>
+<tr>
+<td title='TestCases.Jobs_DELETE_Request.ValidateStatusLine()'><b>ValidateStatusLine</b><br>Test class: TestCases.Jobs_DELETE_Request</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Jobs_DELETE_Request@3ad83a66</td></tr>
+<tr>
+<td title='TestCases.Jobs_GET_Request.ValidateStatusLine()'><b>ValidateStatusLine</b><br>Test class: TestCases.Jobs_GET_Request</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Jobs_GET_Request@5c7933ad</td></tr>
+<tr>
+<td title='TestCases.Jobs_GET_Request.ValidateJsonSchemaValidation()'><b>ValidateJsonSchemaValidation</b><br>Test class: TestCases.Jobs_GET_Request</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Jobs_GET_Request@5c7933ad</td></tr>
+<tr>
+<td title='TestCases.Jobs_POST_already_existing_record_Request.PostJobsApi()'><b>PostJobsApi</b><br>Test class: TestCases.Jobs_POST_already_existing_record_Request<br>Parameters: SDET, Infosys, Philadelphia, Contract, 2 hours ago, RESPONSIBILITIES: Kforce has a client in Greenwood Village, 214</td>
+<td></td>
+<td>2</td>
+<td>TestCases.Jobs_POST_already_existing_record_Request@2de56eb2</td></tr>
+<tr>
+<td title='TestCases.Jobs_PUT_Request.PutJobsApi()'><b>PutJobsApi</b><br>Test class: TestCases.Jobs_PUT_Request<br>Parameters: Tester, 214</td>
+<td></td>
+<td>2</td>
+<td>TestCases.Jobs_PUT_Request@5f8e8a9d</td></tr>
+<tr>
+<td title='TestCases.Jobs_DELETE_already_deleted_record_Request.ValidateStatusLine()'><b>ValidateStatusLine</b><br>Test class: TestCases.Jobs_DELETE_already_deleted_record_Request</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Jobs_DELETE_already_deleted_record_Request@3cce5371</td></tr>
+<tr>
+<td title='TestCases.Jobs_DELETE_already_deleted_record_Request.ValidateStatusCode()'><b>ValidateStatusCode</b><br>Test class: TestCases.Jobs_DELETE_already_deleted_record_Request</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Jobs_DELETE_already_deleted_record_Request@3cce5371</td></tr>
+<tr>
+<td title='TestCases.Jobs_POST_Request.PostJobsApi()'><b>PostJobsApi</b><br>Test class: TestCases.Jobs_POST_Request<br>Parameters: SDET, TCS, Philadelphia, Contract, 2 hours ago, RESPONSIBILITIES: Kforce has a client in Greenwood Village, 235</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Jobs_POST_Request@2ab4bc72</td></tr>
+<tr>
+<td title='TestCases.Jobs_PUT_Request.ValidateJsonSchemaValidation()'><b>ValidateJsonSchemaValidation</b><br>Test class: TestCases.Jobs_PUT_Request</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Jobs_PUT_Request@5f8e8a9d</td></tr>
+<tr>
+<td title='TestCases.Jobs_GET_Request.ValidateHeadersConnection()'><b>ValidateHeadersConnection</b><br>Test class: TestCases.Jobs_GET_Request</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Jobs_GET_Request@5c7933ad</td></tr>
+<tr>
+<td title='TestCases.Jobs_PUT_Request.PutJobsApi()'><b>PutJobsApi</b><br>Test class: TestCases.Jobs_PUT_Request<br>Parameters: Tester, 216</td>
+<td></td>
+<td>2</td>
+<td>TestCases.Jobs_PUT_Request@5f8e8a9d</td></tr>
+<tr>
+<td title='TestCases.Jobs_POST_already_existing_record_Request.ValidateStatusCode()'><b>ValidateStatusCode</b><br>Test class: TestCases.Jobs_POST_already_existing_record_Request</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Jobs_POST_already_existing_record_Request@2de56eb2</td></tr>
+<tr>
+<td title='TestCases.Jobs_DELETE_already_deleted_record_Request.DeleteJobsApi()'><b>DeleteJobsApi</b><br>Test class: TestCases.Jobs_DELETE_already_deleted_record_Request<br>Parameters: 103</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Jobs_DELETE_already_deleted_record_Request@3cce5371</td></tr>
+<tr>
+<td title='TestCases.Jobs_POST_already_existing_record_Request.PostJobsApi()'><b>PostJobsApi</b><br>Test class: TestCases.Jobs_POST_already_existing_record_Request<br>Parameters: SDET, Infosys, Philadelphia, Contract, 2 hours ago, RESPONSIBILITIES: Kforce has a client in Greenwood Village, 215</td>
+<td></td>
+<td>2</td>
+<td>TestCases.Jobs_POST_already_existing_record_Request@2de56eb2</td></tr>
+<tr>
+<td title='TestCases.Jobs_PUT_non_existing_record_Request.PutJobsApi()'><b>PutJobsApi</b><br>Test class: TestCases.Jobs_PUT_non_existing_record_Request<br>Parameters: SDET, 140323</td>
+<td></td>
+<td>2</td>
+<td>TestCases.Jobs_PUT_non_existing_record_Request@5745ca0e</td></tr>
+<tr>
+<td title='TestCases.Jobs_PUT_non_existing_record_Request.PutJobsApi()'><b>PutJobsApi</b><br>Test class: TestCases.Jobs_PUT_non_existing_record_Request<br>Parameters: SDET, 140321</td>
+<td></td>
+<td>2</td>
+<td>TestCases.Jobs_PUT_non_existing_record_Request@5745ca0e</td></tr>
+<tr>
+<td title='TestCases.Jobs_POST_Request.ValidateStatusCode()'><b>ValidateStatusCode</b><br>Test class: TestCases.Jobs_POST_Request</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Jobs_POST_Request@2ab4bc72</td></tr>
+<tr>
+<td title='TestCases.Jobs_PUT_non_existing_record_Request.PutJobsApi()'><b>PutJobsApi</b><br>Test class: TestCases.Jobs_PUT_non_existing_record_Request<br>Parameters: SDET, 140322</td>
+<td></td>
+<td>2</td>
+<td>TestCases.Jobs_PUT_non_existing_record_Request@5745ca0e</td></tr>
+<tr>
+<td title='TestCases.Jobs_PUT_non_existing_record_Request.PutJobsApi()'><b>PutJobsApi</b><br>Test class: TestCases.Jobs_PUT_non_existing_record_Request<br>Parameters: SDET, 140324</td>
+<td></td>
+<td>2</td>
+<td>TestCases.Jobs_PUT_non_existing_record_Request@5745ca0e</td></tr>
+<tr>
+<td title='TestCases.Jobs_DELETE_already_deleted_record_Request.ValidateJsonSchemaValidation()'><b>ValidateJsonSchemaValidation</b><br>Test class: TestCases.Jobs_DELETE_already_deleted_record_Request</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Jobs_DELETE_already_deleted_record_Request@3cce5371</td></tr>
+<tr>
+<td title='TestCases.Jobs_GET_Request.ValidateStatusCode()'><b>ValidateStatusCode</b><br>Test class: TestCases.Jobs_GET_Request</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Jobs_GET_Request@5c7933ad</td></tr>
+<tr>
+<td title='TestCases.Jobs_DELETE_already_deleted_record_Request.DeleteJobsApi()'><b>DeleteJobsApi</b><br>Test class: TestCases.Jobs_DELETE_already_deleted_record_Request<br>Parameters: 102</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Jobs_DELETE_already_deleted_record_Request@3cce5371</td></tr>
+<tr>
+<td title='TestCases.Jobs_POST_Request.ValidateStatusLine()'><b>ValidateStatusLine</b><br>Test class: TestCases.Jobs_POST_Request</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Jobs_POST_Request@2ab4bc72</td></tr>
+<tr>
+<td title='TestCases.Jobs_PUT_Request.PutJobsApi()'><b>PutJobsApi</b><br>Test class: TestCases.Jobs_PUT_Request<br>Parameters: Tester, 215</td>
+<td></td>
+<td>2</td>
+<td>TestCases.Jobs_PUT_Request@5f8e8a9d</td></tr>
+<tr>
+<td title='TestCases.Jobs_PUT_non_existing_record_Request.ValidateStatusLine()'><b>ValidateStatusLine</b><br>Test class: TestCases.Jobs_PUT_non_existing_record_Request</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Jobs_PUT_non_existing_record_Request@5745ca0e</td></tr>
+<tr>
+<td title='TestCases.Jobs_GET_Request.CheckResponseBody()'><b>CheckResponseBody</b><br>Test class: TestCases.Jobs_GET_Request</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Jobs_GET_Request@5c7933ad</td></tr>
+<tr>
+<td title='TestCases.Jobs_DELETE_Request.DeleteJobsApi()'><b>DeleteJobsApi</b><br>Test class: TestCases.Jobs_DELETE_Request<br>Parameters: 230</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Jobs_DELETE_Request@3ad83a66</td></tr>
+<tr>
+<td title='TestCases.Jobs_PUT_non_existing_record_Request.ValidateJsonSchemaValidation()'><b>ValidateJsonSchemaValidation</b><br>Test class: TestCases.Jobs_PUT_non_existing_record_Request</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Jobs_PUT_non_existing_record_Request@5745ca0e</td></tr>
+<tr>
+<td title='TestCases.Jobs_DELETE_Request.ValidateStatusCode()'><b>ValidateStatusCode</b><br>Test class: TestCases.Jobs_DELETE_Request</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Jobs_DELETE_Request@3ad83a66</td></tr>
+<tr>
+<td title='TestCases.Jobs_POST_Request.PostJobsApi()'><b>PostJobsApi</b><br>Test class: TestCases.Jobs_POST_Request<br>Parameters: SDET, TCS, Philadelphia, Contract, 2 hours ago, RESPONSIBILITIES: Kforce has a client in Greenwood Village, 234</td>
+<td></td>
+<td>2</td>
+<td>TestCases.Jobs_POST_Request@2ab4bc72</td></tr>
+<tr>
+<td title='TestCases.Jobs_POST_Request.ValidateJsonSchemaValidation()'><b>ValidateJsonSchemaValidation</b><br>Test class: TestCases.Jobs_POST_Request</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Jobs_POST_Request@2ab4bc72</td></tr>
+<tr>
+<td title='TestCases.Jobs_POST_already_existing_record_Request.PostJobsApi()'><b>PostJobsApi</b><br>Test class: TestCases.Jobs_POST_already_existing_record_Request<br>Parameters: SDET, Infosys, Philadelphia, Contract, 2 hours ago, RESPONSIBILITIES: Kforce has a client in Greenwood Village, 217</td>
+<td></td>
+<td>2</td>
+<td>TestCases.Jobs_POST_already_existing_record_Request@2de56eb2</td></tr>
+<tr>
+<td title='TestCases.Jobs_PUT_non_existing_record_Request.PutJobsApi()'><b>PutJobsApi</b><br>Test class: TestCases.Jobs_PUT_non_existing_record_Request<br>Parameters: SDET, 140325</td>
+<td></td>
+<td>2</td>
+<td>TestCases.Jobs_PUT_non_existing_record_Request@5745ca0e</td></tr>
+<tr>
+<td title='TestCases.Jobs_PUT_Request.ValidateStatusCode()'><b>ValidateStatusCode</b><br>Test class: TestCases.Jobs_PUT_Request</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Jobs_PUT_Request@5f8e8a9d</td></tr>
+<tr>
+<td title='TestCases.Jobs_PUT_non_existing_record_Request.ValidateStatusCode()'><b>ValidateStatusCode</b><br>Test class: TestCases.Jobs_PUT_non_existing_record_Request</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Jobs_PUT_non_existing_record_Request@5745ca0e</td></tr>
+<tr>
+<td title='TestCases.Jobs_DELETE_Request.DeleteJobsApi()'><b>DeleteJobsApi</b><br>Test class: TestCases.Jobs_DELETE_Request<br>Parameters: 233</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Jobs_DELETE_Request@3ad83a66</td></tr>
+</table><p>
+</body>
+</html>
